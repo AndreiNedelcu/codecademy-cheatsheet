@@ -1,1 +1,100 @@
+@font-face {
+    font-family: 'josefin sans italic';
+    src: url('/fonts/josefinsans-italic-variablefont_wght-webfont.woff2') format('woff2'),
+        url('/fonts/josefinsans-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+
+
+
+@font-face {
+    font-family: 'josefin_sans';
+    src: url('/fonts/josefinsans-variablefont_wght-webfont.woff2') format('woff2'),
+        url('/fonts/josefinsans-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #FBFAF5;
+
+}
+
+h1 {
+    color: #272635;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+
+
+}
+
+h2 {
+    color: #2A4D14;
+    font-size: 40px;
+    font-weight: bold;
+
+    padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    border-radius: 17px;
+    background: #FBFAF5;
+    box-shadow: 22px 22px 44px #b2b2ae,
+        -22px -22px 44px #ffffff;
+    width: 50%;
+    margin: 40px auto;
+
+}
+
+h3 {
+    color: #272635;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+table {
+
+    margin: 0 auto;
+    font-family: josefin sans;
+    background-color: #B1E5F2;
+    width: 50%;
+    border-collapse: collapse;
+
+
+
+}
+
+tr {
+    text-align: center;
+    background-color: #B1E5F2;
+    font-family: josefin sans;
+
+
+
+}
+
+th {
+    height: 50px;
+    border: 2px solid black;
+}
+
+td {
+    height: 25px;
+    padding: 10px;
+    border: 2px solid black;
+}
